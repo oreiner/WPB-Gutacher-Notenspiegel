@@ -1,0 +1,33 @@
+{
+  "name": "Wahlpflichtblock-Gutachter",
+  "description": "Schau dir die Noten der Wahlpflichtblöcke direkt in Klips an! Füge deine Kommentare hinzu!",
+  "version": "0.9",
+  "icons": { 
+	"16": "icon.png",
+	"48": "icon.png",
+	"128": "icon.png"
+	},
+  "permissions": [
+    "activeTab",
+	"https://www.wpbgutachter.xyz/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://klips2.uni-koeln.de/co/wbstpcs.showSpoTree?*", "https://klips2.uni-koeln.de/co/*"],
+      "js": ["myscript.js", "exam_grades_downloader.js"],
+	  "css": ["splash_page.css", "popup.css"]
+    }
+  ],
+  "web_accessible_resources": [
+	"Noten.txt",
+	"Kommentare_a135341.txt",
+	"histogram.png"	
+  ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+  "browser_action": {
+    "default_title": "Wahlpflichtblock-Gutachter",
+	"default_icon" : "icon.png",
+	"default_popup" : "popup.html"
+  },
+  "manifest_version": 2
+}

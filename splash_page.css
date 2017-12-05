@@ -1,0 +1,143 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+  
+  Uni-Koeln colors
+  #32475B - darker blue
+  #3E566C - lighter bluie
+  #FFFFFF - white
+*/
+
+/*select class of "Kommentare" link */
+.splash {
+	background: #efefef; 
+	border: 5px solid #cdcdcd; 
+	color: #111; 
+	display: block; 
+	padding: 100px; 
+	line-height: 40px; 
+	margin: auto; 
+	overflow: auto; 
+	position: fixed; 
+	right: 20px; 
+	text-align: center; 
+	top: 15px; 
+	width: 70%; 
+	height: 60%;
+	z-index: 9997;
+}
+.btn{
+	position: relative;
+	color: white;
+	border-radius: 8px;
+	margin: 5px;
+	background-color: #0e6000;
+}
+.btn:hover{
+	background-color: #90c487;
+}
+
+.pageDisabled
+{
+	margin: 0px; 
+	z-index: 100; 
+	position: fixed;  
+	top: 0px; 
+	left: 0px; 
+	right: 0px; 
+	bottom: 0px; 
+	background-color: #000000; 
+	opacity: 0.2; 
+	filter: alpha(opacity = 20);
+}
+
+.grades_histogram
+{
+	display: block;
+    margin: auto;
+	width = 100;
+	max-width: 100%;
+    height: auto;
+}
+
+.comment_field, .grade_bar, .submit_comment {
+    display:none;
+}
+.comment_field_checkbox:checked + .comment_field, .grade_bar_checkbox:checked + .grade_bar, 
+.comment_field_checkbox:checked ~ .submit_comment, .grade_bar_checkbox:checked ~ .submit_comment  {
+    display:block;
+}
+
+/*comments and form on splash page*/
+
+table.comments_div {
+	overflow: scroll; 
+	margin: auto; 
+	position: relative;
+	top: 0px; 
+	left: 0%;   
+	height: 30%;
+	width: 70%;
+	max-width: 70%;
+	z-index: 9998;
+}
+
+.new_comment_form {
+	margin: 0em ; padding: 0em;
+	text-align: left;
+}
+
+td.text{
+	overflow: auto; 
+	margin: auto; 
+	position: relative;
+	top: 0px; 
+	left: 0%;   
+	height: 30%;
+	width = 30%;
+	z-index: 9998;
+	
+	border: 1px solid #32475B; 
+	color: #32475B; font-weight: bold;
+	margin: 1em 0 ; padding: 1em;
+	text-align: left;
+}
+
+td.klips_text {
+	border: 4px solid #32CD32; font-weight: bold;
+	margin: 1em 0 ; padding: 1em;
+	width: 650px;
+	text-align: left;
+}
+
+table.comments_table, td.missbrauch{
+	border: 0; text-align: right;
+	background-color: #FFFFFF;
+	color: #32475B; font-weight: bold;
+	
+	overflow: auto; 
+	margin: auto; 
+	position: relative;
+	padding: 0;
+	top: 0px; 
+	left: 0%;   
+	height: 30%;
+	width = 30%;
+	max-width: 100%;
+	z-index: 9998;
+}
+
+button.missbrauch_button{
+	border: 0; text-align: right;
+	background-color: #FFFFFF;
+	text-decoration: underline;
+	color: #32475B; font-weight: bold;
+	margin: 0em 0 ; padding-top: 0; padding-bottom: 1em;
+	width: 650px;
+}
+
+
+

@@ -1,0 +1,33 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+  
+  Uni-Koeln colors
+  #32475B - darker blue
+  #3E566C - lighter bluie
+  #FFFFFF - white
+*/
+
+html{
+	width: 340px;
+}
+
+.button{
+	position: relative;
+	color: white;
+	border-radius: 8px;
+	margin: 5px;
+	background-color: #0e6000;
+	left: 10%;
+	width: 80%;
+}
+.button:hover{
+	background-color: #90c487;
+}
+p{
+	margin: 1em;
+}
+
