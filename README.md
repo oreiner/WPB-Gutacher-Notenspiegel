@@ -8,4 +8,3 @@ Man muss zwar in Klips einloggen, die Daten werden aber anonym gesammlt und ihr 
 Vieles ist hard-coded, funktioniert also nur für die Uni-Köln...
 
 Die Version hier ist nur für Google Chrome.
-Die Firefox Version wird im Verlauf hochgeladen.
